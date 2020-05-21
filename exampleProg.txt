@@ -1,0 +1,11 @@
+begin [a,b,c]
+	read i;
+	n:=1;
+	while i<0 do
+	#This is a sample comment#
+		begin
+			n = 2*n;
+			i := i-1
+		end;
+	write n
+end
